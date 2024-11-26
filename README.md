@@ -1,6 +1,6 @@
 # MODELS, VIEWS, CONTROLLERS (MVC)
 
-If you want to see this in presentation form, click [here](https://drive.google.com/file/d/1x1OQlmxUYDJ8X7k_y7STIBZyoVMk9iMF/view?usp=sharing)
+If you want to see this in presentation form with images, click [here](https://drive.google.com/file/d/1x1OQlmxUYDJ8X7k_y7STIBZyoVMk9iMF/view?usp=sharing)
 
 ## What is MVC?
 
@@ -16,11 +16,10 @@ MVC is a design pattern. It’s a certain way software developers organise code 
 
 ## Quick Description
 
+![mvc architecture](image-7.png)
 
+![mvc diagram](image-6.png)
 
-![[mvc architecture.png]]
-
-![[mvc diagram.png]]
 ### Model
 
 This is the only thing interacting with the database. The Model is responsible for fetching, storing, and updating data, usually found in the database.
@@ -36,7 +35,7 @@ The job of the controller is to process user input, interact with the Model to r
 ## Model
 
 
-![[model code.png]]
+![model code for todolist](image-5.png)
 
 ### Manages Data
 
@@ -52,11 +51,11 @@ The job of the controller is to process user input, interact with the Model to r
 
 The Model doesn’t concern itself with how the data is displayed, its sole purpose is to process and provide data.
 
-![[model structure.png]]
+![flow of model talking to database or API](image-4.png)
 
 ## Views
 
-![[views code.png]]
+![views code of a todo list](image-3.png)
 
 ### Presentation-Focused
 
@@ -71,10 +70,11 @@ Views can dynamically display data based on user input or backend responses.
 
 In some cases, Views also handle user interactions like clicking buttons or submitting forms, but they typically pass these inputs to the Controller for processing.
 
-![[view layout.png]]
+![flow of how views interacts with the controller](image-2.png)
 ## Controllers
 
-![[controllers code.png]]
+![image of the controller code for a todolist](image.png)
+
 ### Handles Requests
 
 - Receives user inputs (e.g., form submissions, button clicks, API calls).
@@ -89,7 +89,7 @@ In some cases, Views also handle user interactions like clicking buttons or subm
 
 Passes data retrieved from the Model to the View for presentation.
 
-![[controller layout.png]]
+![flow of how controller handles everything](image-1.png)
 
 ## More Resources
 
