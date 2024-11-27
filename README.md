@@ -4,7 +4,7 @@ If you want to see this in presentation form with images, click [here](https://d
 
 ## What is MVC?
 
-### Architectural Paradigm
+### An Architectural Paradigm
 
 MVC is a design pattern. It’s a certain way software developers organise code to reduce complexity, reduce large amounts of code in one file, separates concerns, makes working together on a project easier, makes it easier to manage, scale, and maintain projects, and much more!
 
